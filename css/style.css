@@ -2,10 +2,20 @@
 Base Styles
 *******************/
 
+* {
+  box-sizing: border-box;
+}
+
+div {
+  margin: 3px;
+  border: 1px solid red;
+}
+
 Body {
   font-family: 'Roboto', sans-serif;
   line-height: 1.5;
   color: #4a4a4a;
+  background-color: #FAFAFA;
 }
 
 p {
@@ -14,4 +24,32 @@ p {
 
 img {
   max-width: 100%;
+}
+
+/*****************
+Base Layout Styles
+****************/
+
+.name {
+  margin: 0;
+  text-align: center;
+  font-weight: 900;
+}
+
+.main-nav {
+  margin-top: 10px;
+  text-align: center;
+  background-color: #FFFFFF;
+  font-weight: 700;
+  text-transform:  uppercase;
+  display: block;
+}
+
+.name a,
+.main-nav a {
+  text-decoration: none;
+  color: #4A4A4A;
+  text-align:  center;
+  display: block;
+  margin: 4px;
 }
