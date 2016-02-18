@@ -18,8 +18,15 @@ Body {
   background-color: #FAFAFA;
 }
 
+h2 {
+  text-align: center;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
 p {
-  line-height: .95em;
+  font-weight: 400;
+  text-align: center;
 }
 
 img {
@@ -36,7 +43,7 @@ Base Layout Styles
   font-weight: 900;
 }
 
-.main-nav {
+.main-nav li {
   margin-top: 10px;
   text-align: center;
   background-color: #FFFFFF;
@@ -51,5 +58,16 @@ Base Layout Styles
   color: #4A4A4A;
   text-align:  center;
   display: block;
-  margin: 4px;
+  padding: 10px;
+}
+
+.home {
+  text-align: center;
+  margin: 25px;
+  line-height: 150%;
+}
+
+.portfolio li, a {
+  text-align: center;
+  display: block;
 }
