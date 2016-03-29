@@ -64,7 +64,7 @@ Base Layout Styles
   color: #4A4A4A;
   text-align:  center;
   display: block;
-  padding: 10px;
+  padding: 10px 15px;
 }
 
 .home {
@@ -75,11 +75,30 @@ Base Layout Styles
 
 .portfolio ul {
   list-style-type: none;
-  margin: 0;
+  margin: 0 25px;
   padding: 0;
 }
 
 .portfolio li, a {
   text-align: center;
   display: block;
+}
+.contact,
+.contact li {
+  list-style-type: none;
+  text-align: center;
+}
+
+.contact a {
+  color: #626f7e;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+footer,
+footer a {
+  text-decoration: none;
+  display: inline;
+  margin: 15px 5px;
+  padding: 10px 30px;
 }
