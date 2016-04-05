@@ -1,21 +1,11 @@
 /******************
 Base Styles
 *******************/
-
-* {
-  box-sizing: border-box;
-}
-
-div {
-  margin: 3px;
-  border: 1px solid red;
-}
-
-Body {
+body {
   font-family: 'Roboto', sans-serif;
   line-height: 1.5;
-  color: #4a4a4a;
-  background-color: #FAFAFA;
+  color:#000000;
+  background-color:#FAFAFA;
 }
 
 h2 {
@@ -31,6 +21,13 @@ p {
 
 img {
   max-width: 100%;
+}
+
+footer {
+  font-family: 'Roboto', sans-serif;
+  color: #4a4a4a
+  background-color: #DDDDDD;
+  text-align: right;
 }
 
 /*****************
@@ -81,18 +78,26 @@ Base Layout Styles
 
 .portfolio li, a {
   text-align: center;
-  display: block;
 }
-.contact,
+
+.contact {
+  margin-top: 100px;
+  border-bottom: solid;
+  border-bottom-color: #7f7f7f;
+}
+
+.contact p,
 .contact li {
   list-style-type: none;
   text-align: center;
+  color: #7f7f7f;
 }
 
 .contact a {
   color: #626f7e;
   font-weight: bold;
   text-decoration: none;
+  padding-left: 10px;
 }
 
 footer,
@@ -100,5 +105,18 @@ footer a {
   text-decoration: none;
   display: inline;
   margin: 15px 5px;
-  padding: 10px 30px;
+  color: #000000;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+  }
+
+.student {
+  font-weight: bold;
+  float: left;
+}
+
 }
