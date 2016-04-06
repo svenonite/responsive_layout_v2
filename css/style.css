@@ -82,8 +82,6 @@ Base Layout Styles
 
 .contact {
   margin-top: 100px;
-  border-bottom: solid;
-  border-bottom-color: #7f7f7f;
 }
 
 .contact p,
@@ -100,12 +98,28 @@ Base Layout Styles
   padding-left: 10px;
 }
 
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+  }
+
 footer,
 footer a {
   text-decoration: none;
-  display: inline;
+  display: inline-block;
   margin: 15px 5px;
   color: #000000;
+}
+
+.student {
+  font-weight: bold;
+  float: left;
+}
+
+.top {
+  font-weight: bold;
+  float: right;
 }
 
 .clearfix::after {
@@ -113,10 +127,5 @@ footer a {
   display: table;
   clear: both;
   }
-
-.student {
-  font-weight: bold;
-  float: left;
-}
 
 }
