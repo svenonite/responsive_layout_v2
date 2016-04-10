@@ -27,7 +27,6 @@ footer {
   font-family: 'Roboto', sans-serif;
   color: #4a4a4a
   background-color: #DDDDDD;
-  text-align: right;
 }
 
 /*****************
@@ -98,16 +97,16 @@ Base Layout Styles
   padding-left: 10px;
 }
 
-.clearfix::after {
-  content: "";
-  display: table;
-  clear: both;
-  }
 
-footer,
+footer {
+  display: block;
+  text-decoration: none;
+  margin: 15px 5px;
+  color: #000000;
+}
+
 footer a {
   text-decoration: none;
-  display: inline-block;
   margin: 15px 5px;
   color: #000000;
 }
@@ -122,10 +121,5 @@ footer a {
   float: right;
 }
 
-.clearfix::after {
-  content: "";
-  display: table;
-  clear: both;
-  }
 
 }
